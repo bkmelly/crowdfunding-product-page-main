@@ -11,7 +11,17 @@
     margin: 0;
     background-color: rgb(241, 239, 239);
   }
-  nav{
+
+  header{
+    text-align: center;
+    background-color: rgb(241, 239, 239);
+    margin-left: 25%;
+    margin-top:20%;
+    border-radius: 10px 10px 0 0;
+    padding: 10px 20vh;
+    
+}
+   header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,9 +40,104 @@
     background-position: top;
    }
 
+   .Mastercraft img{
+    margin-top: -30px;  
+   }
+
    .Mastercraft{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: ;
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 15px;
    }
+
+   .bookmark{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 15px 10%; */
+    margin: 5% 5%;
+  }
+  .bookmark button{
+    border-radius: 25px;
+    padding: 10px;
+    outline: none;
+    font-size: px;
+    border: none;
+    
+  }
+  .back-this-project button{
+    
+    background-color: rgb(11, 194, 197);
+    font-size: 18px;
+    color: white;
+  }
+  .part1{
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    background-color: rgb(219, 217, 217);
+    font-size: 20px;
+  }
+  .part1 img{
+    height: 35px;
+    margin-top: 2px;
+   background-color:  rgb(142, 139, 139);
+   border-radius: 25px;
+  }
+
+  .part1 button{
+    padding: 5px;
+    background-color: lightgrey;
+  }
+
+  .statics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 5% 0px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  .about{
+    background-color: white;
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px 40px;
+  }
+   .bamboo{
+    display: block;
+    border: 1px solid rgb(180, 176, 176);
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin: 30px 0px;
+   }
+   .bamboo-btn{
+    display: flex;
+    justify-content: space-between;
+   }
+   .bamboo-btn span :last-child{
+    color: rgb(11, 194, 197);;
+   }
+   .reward{
+    display: flex;
+    justify-content: space-between;
+   }
+   .reward span button:last-child{
+    border-radius: 25px;
+    padding: 10px;
+    outline: none;
+    font-size: px;
+    border: none;
+  }
+  .reward-last{
+    display: flex;
+    justify-content: space-between;
+  }
+  .reward-last span:first-child{
+    color: rgb(194, 191, 191);
+  }
+

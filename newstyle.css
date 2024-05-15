@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+    background-color:#fafafa;
+}
+header{
+    background-image: url(images/image-hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 20px;
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+}
+header button{
+    border: none;
+    background-color: transparent;
+    height: 23px;
+    display: none;
+}
+
+header button img{
+    height: 100%;
+}
+main{
+    width: 50%;
+    margin: 0 auto;
+}
+section{
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+#intro{
+    position: relative;
+    top: -80px;
+    text-align: center;
+}
+#intro .mastercraft{
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -41px;
+    margin: 0 auto;
+}
+
+.mastercraft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding-bottom: 15px;
+   }
+
+.mastercraft h1 p{
+    margin:10px 0px ;
+    text-align: center;
+}
+.bookmark{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5% 5%;
+  }
+
+  .bookmark button{
+    border-radius: 25px;
+    padding: 10px;
+    outline: none;
+    font-size: px;
+    border: none;
+    
+  }
+
+  .back-this-project button{
+    
+    background-color:rgb(11, 194, 197);
+    font-size: 18px;
+    color: white;
+  }
+
+  .part1{
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    background-color: rgb(219, 217, 217);
+    font-size: 20px;
+  }
+  .part1 img{
+    height: 35px;
+    margin-top: 2px;
+   background-color:  rgb(142, 139, 139);
+   border-radius: 25px;
+  }
+
+  .part1 button{
+    padding: 5px;
+    background-color: lightgrey;
+  }
+
+  .statics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 5% 0px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  .about{
+    background-color: white;
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px 40px;
+  }
+  .bamboo{
+    display: block;
+    border: 1px solid rgb(180, 176, 176);
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin: 30px 0px;
+   }
+   .bamboo-btn{
+    display: flex;
+    justify-content: space-between;
+   }
+   .bamboo-btn span :last-child{
+    color: rgb(11, 194, 197);
+   }
+
+   .bamboo-reward{ 
+    display: flex;
+    justify-content: space-between;
+   }
+   .bamboo-reward span button:last-child{
+    border-radius: 25px;
+    padding: 10px;
+    outline: none;
+    font-size: px;
+    border: none;
+  }
+  
+
+    .black{
+        display: block;
+        border: 1px solid rgb(180, 176, 176);
+        border-radius: 10px;
+        padding: 20px 30px;
+        margin: 30px 0px;  
+    }
+    .blackedition-btn{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .blackedition-btn:last-child{
+        color: rgb(11, 194, 197);
+    }
+    .black-reward{
+    display: flex;
+    justify-content: space-between;
+    }
+    .black-reward span button:last-child{
+        border-radius: 25px;
+        padding: 10px;
+        outline: none;
+        font-size: px;
+        border: none;
+    }
+    .mahogany{
+        display: block;
+        border: 1px solid rgb(180, 176, 176);
+        border-radius: 10px;
+        padding: 20px 30px;
+        margin: 30px 0px;
+    }
+
+    .mahogany-btn{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mahogany-btn:last-child{
+        color: rgb(11, 194, 197);
+    }
+    .mahogany-reward{
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .mahogany-reward span button:last-child{
+        border-radius: 25px;
+        padding: 10px;
+        outline: none;
+        font-size: px;
+        border: none;
+    }
+
+    
+
+   
+
+
+@media (max-width: 660px){
+    header{
+        background-image: url(./images/image-hero-mobile.jpg);
+    }
+    header button{
+        display: block;
+
+    }
+    header nav{
+        position: fixed;
+        width: 270px;
+        left: -350px;
+        top: 0;
+        height: 100vh;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+        transition: left 0.6s ease-in-out;
+    }
+    header nav.active{
+        left: 0px;
+    }
+    header nav a{
+        color: black;
+    }
+}
